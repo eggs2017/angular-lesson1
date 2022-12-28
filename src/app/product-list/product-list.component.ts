@@ -8,7 +8,7 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css'],
 })
 export class ProductListComponent {
-  productsList = products;
+  productList = products;
 
   shareMarek() {
     window.alert('The product has been shared!');
