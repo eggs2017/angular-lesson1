@@ -8,24 +8,29 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
+    name: 'Phone XL1',
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: 'A large phone with one of the best screens',
   },
   {
     id: 2,
     name: 'Phone Mini',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'A great phone with one of the best cameras',
   },
   {
     id: 3,
     name: 'Phone Standard',
-    price: 299,
-    description: ''
-  }
+    price: 850,
+    description: '',
+  },
+  {
+    id: 4,
+    name: 'Google Pixel 6a',
+    price: 450,
+    description: 'very nice phone with android',
+  },
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
